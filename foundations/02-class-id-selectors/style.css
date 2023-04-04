@@ -1,0 +1,16 @@
+.peas {
+    background-color: rgb(245, 171, 181);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.larger-font {
+    font-size: 24px;
+}
+#id-2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+#id-4 {
+    background-color: hsl(120, 73%, 71%);
+    font-weight: bold;
+}
