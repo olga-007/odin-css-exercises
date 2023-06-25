@@ -46,9 +46,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #eee;
+  padding: 0;
 }
 
 button {
+  cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
@@ -77,7 +80,7 @@ button.cancel {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
-
+/* header container should be wrapped around the button element as well in order for flex style to work */
 .header {
   display: flex;
   align-items: center;
