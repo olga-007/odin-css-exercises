@@ -27,6 +27,7 @@ input {
 }
 
 /* solution */
+
 body {
   display: flex;
   flex-direction: column;
@@ -64,13 +65,3 @@ ul {
   display: flex;
   gap: 16px;
 }
-
-/* body > * {
-  border: 1px solid green;
-}
-
-body > * > * {
-  border: 1px solid orange;
-} */
-
-
