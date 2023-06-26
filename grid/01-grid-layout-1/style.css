@@ -46,3 +46,21 @@ html {
   color: white;
   text-align: left;
 }
+
+/* solution */
+
+/* I'm using flexible units instead of pixels */
+.container {
+  display: grid;
+  grid-template: 1fr 1fr 5fr 1fr / 1fr 3fr;
+  gap: 15px;
+}
+
+.header,
+.footer {
+  grid-column: span 2;
+}
+
+.sidebar {
+  grid-row: span 2;
+}
